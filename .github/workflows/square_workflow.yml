@@ -1,7 +1,10 @@
 name: sam-square-github-actions CI workflow
 # sam-square-github-actions square_workflow CI workflow
 
-on: [push]
+on:
+  push:
+    branches:
+      - main
 
 jobs:
   build:
