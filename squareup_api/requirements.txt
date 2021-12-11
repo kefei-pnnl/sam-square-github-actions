@@ -1,6 +1,6 @@
-pylint
-pytest
-black
+pytest == 6.2.5
+# black
+# pylint
 
 pandas == 1.2.4
 squareup == 16.0.0.20211117
