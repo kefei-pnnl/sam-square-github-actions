@@ -1,4 +1,4 @@
-name: sam-square-github-actions CD workflow
+name: CD workflow
 # sam-square-github-actions sam-build-deploy CD workflow
 
 on:
