@@ -104,7 +104,7 @@ Stage4: sam deploy
     ```
     
 
-Stage4: verify and clean up.
+Stage5: verify and clean up.
 
 -   [ ] Verify with `https://url-aws-assigned/your-api-endpoint`.
     
