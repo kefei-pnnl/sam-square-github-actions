@@ -104,10 +104,19 @@ Stage4: sam deploy
     ```
     
 
-Final step.
+Stage4: verify and clean up.
 
 -   [ ] Verify with `https://url-aws-assigned/your-api-endpoint`.
     
     <aside> 💡 Note: the `your-api-endpoint` is defined in `template.yaml`, Resources session, Events → Properties → path
     
     </aside>
+    
+-   [ ] Clearn up. (change `your-stack-name` as desired.)
+    
+    ```bash
+    
+    aws cloudformation delete-stack --stack-name your-stack-name
+    
+    
+    ```
